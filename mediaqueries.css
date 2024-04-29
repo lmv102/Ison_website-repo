@@ -1,0 +1,113 @@
+/* ADD YOUR MEDIA QUERIES HERE */
+@media screen and (max-width: 1400px) {
+    #profile {
+        height: 50vh;
+        margin-bottom: 15rem;
+    }
+    #profile-2 {
+        height: 50vh;
+        margin-bottom: 0;
+    }
+    .subsystems-containers {
+        margin-top: 0;
+        flex-wrap: wrap;
+    }
+    #subsystems{
+        margin-top: 15rem;
+    }
+    #section__text {
+        margin-bottom: 30rem;
+    }
+    
+}
+@media screen and (max-width: 1200px) {
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #theteam, .theteam-details-container {
+        margin-top: 2rem;
+    }
+    #profile, #profile-2, .section-container {
+        display: block;
+    }
+    #subsystems{
+        margin-top: 15rem;
+    }
+    .arrow {
+        display: none;
+    }
+    .section, .section-container{
+        height: fit-content;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .theteam-details.container {
+        gap:.5rem;
+    }
+    .section__pic-container {
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem;
+    }
+    .subsystems-containers {
+        margin-top: 0;
+    }
+    .subsystems-details-container {
+        margin-top: 2rem;
+        width:fit-content;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px) { 
+    #profile {
+        height: 50vh;
+        margin-bottom: 0;
+        
+    }
+    .subsystems-details-container {
+        margin-top: 2rem;
+        width:fit-content;
+        text-align: center;
+    }
+    #profile-2 {
+        height: 50vh;
+        margin-bottom: 0;
+    }
+    article {
+        font-size: 7rem;
+    }
+    footer nav {
+        height: fit-content;
+        margin-bottom: 2rem;
+    }
+    .theteam-sub-title {
+        font-size: 8rem;
+    }
+    .logo {
+        font-size: 15rem;
+    }
+    .nav-links {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+    }
+    .section__pic-container {
+        width: auto;
+        height: 46vw; /* Adjust this value as needed */
+        justify-content: center;
+    }
+
+    .section__text__p2 {
+        font-size: 2.5rem;
+    }
+    .title {
+        font-size: 4rem;
+    }
+    .text-container {
+        text-align: justify;
+    }
+}
