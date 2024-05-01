@@ -114,7 +114,10 @@
     #desktop-nav {
         display: none;
     }
-    
+    #nav {
+        margin-left: .5rem;
+        margin-right: .5rem;
+    }
     #hamburger-nav, .menu-links {
         z-index: 1;
     }
