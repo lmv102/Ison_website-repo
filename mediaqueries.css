@@ -9,7 +9,7 @@
     #hamburger-nav {
         display: flex;
     }
-    #profile,#profile-3,
+    #profile,
     #profile-2,
     .section-container {
         display: block;
@@ -54,13 +54,13 @@
     #hamburger-nav {
         display: flex;
     }
-    #profile,#profile-3,
+    #profile,
     #profile-2,
     .section-container {
         display: block;
     }
     #subsystems {
-        margin-top: 15rem;
+        margin-top: 1rem;
     }
     .arrow {
         display: none;
@@ -101,14 +101,14 @@
     #hamburger-nav {
         display: flex;
     }
-    #profile,#profile-3,
+    #profile,
     #profile-2,
     .section-container {
         display: block;
         position: relative;
     }
     #subsystems {
-        margin-top: 15rem;
+        margin-top: 1rem;
     }
     .arrow {
         display: none;
