@@ -1,113 +1,136 @@
 /* ADD YOUR MEDIA QUERIES HERE */
 @media screen and (max-width: 1400px) {
-    #profile {
-        height: 50vh;
-        margin-bottom: 15rem;
+    .logo {
+        font-size: 5rem;
     }
-    #profile-2 {
-        height: 50vh;
-        margin-bottom: 0;
-    }
-    .subsystems-containers {
-        margin-top: 0;
-        flex-wrap: wrap;
-    }
-    #subsystems{
-        margin-top: 15rem;
-    }
-    #section__text {
-        margin-bottom: 30rem;
-    }
-    
-}
-@media screen and (max-width: 1200px) {
     #desktop-nav {
         display: none;
     }
     #hamburger-nav {
         display: flex;
     }
-    #theteam, .theteam-details-container {
-        margin-top: 2rem;
-    }
-    #profile, #profile-2, .section-container {
+    #profile,#profile-3,
+    #profile-2,
+    .section-container {
         display: block;
     }
-    #subsystems{
+    #subsystems {
         margin-top: 15rem;
     }
     .arrow {
         display: none;
     }
-    .section, .section-container{
-        height: fit-content;
+    .section,
+    .section-container,
+    .subsystems-details-container {
+        width: fit-content;
+        height: auto;
     }
     section {
         margin: 0 5%;
     }
-    .theteam-details.container {
-        gap:.5rem;
-    }
     .section__pic-container {
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
+        width: 90%;
+        height: auto;
     }
     .subsystems-containers {
         margin-top: 0;
     }
     .subsystems-details-container {
         margin-top: 2rem;
-        width:fit-content;
+        width: fit-content;
         text-align: center;
+        height: auto;
     }
 }
-@media screen and (max-width: 600px) { 
-    #profile {
-        height: 50vh;
-        margin-bottom: 0;
-        
+
+@media screen and (max-width: 1200px) {
+    .logo {
+        font-size: 5rem;
+    }
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #profile,#profile-3,
+    #profile-2,
+    .section-container {
+        display: block;
+    }
+    #subsystems {
+        margin-top: 15rem;
+    }
+    .arrow {
+        display: none;
+    }
+    .section,
+    .section-container,
+    .subsystems-details-container {
+        height: auto;
+    }
+    section {
+        margin: 0 5%;
+    }
+    .section__pic-container {
+        width: 90%;
+        height: auto;
+    }
+    #experience,
+    .experience-details-container {
+        margin-top: 2rem;
+    }
+    .subsystems-containers {
+        margin-top: 0;
     }
     .subsystems-details-container {
         margin-top: 2rem;
-        width:fit-content;
+        width: fit-content;
         text-align: center;
     }
-    #profile-2 {
-        height: 50vh;
-        margin-bottom: 0;
-    }
-    article {
-        font-size: 7rem;
-    }
-    footer nav {
-        height: fit-content;
-        margin-bottom: 2rem;
-    }
-    .theteam-sub-title {
-        font-size: 8rem;
-    }
+}
+
+@media screen and (max-width: 600px) {
     .logo {
-        font-size: 15rem;
+        font-size: 5rem;
     }
-    .nav-links {
-        flex-direction: column;
-        gap: 0.5rem;
-        text-align: center;
+    #desktop-nav {
+        display: none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+    #profile,#profile-3,
+    #profile-2,
+    .section-container {
+        display: block;
+        position: relative;
+    }
+    #subsystems {
+        margin-top: 15rem;
+    }
+    .arrow {
+        display: none;
+    }
+    .section,
+    .section-container,
+    .subsystems-details-container {
+        width: fit-content;
+    }
+    section {
+        margin: 0 5%;
     }
     .section__pic-container {
-        width: auto;
-        height: 46vw; /* Adjust this value as needed */
-        justify-content: center;
+        width: 90%;
+        height: auto;
     }
-
-    .section__text__p2 {
-        font-size: 2.5rem;
+    .subsystems-containers {
+        margin-top: 0;
     }
-    .title {
-        font-size: 4rem;
-    }
-    .text-container {
-        text-align: justify;
+    .subsystems-details-container {
+        margin-top: 2rem;
+        width: fit-content;
+        text-align: center;
     }
 }

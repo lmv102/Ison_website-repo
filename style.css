@@ -32,6 +32,23 @@ nav,
     display: flex;
 }
 
+.section__pic-container img{
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 11%;
+}
+.about-containers{
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+.section__pic-container{
+    width: 90%;
+    height: auto;
+}
+
 nav {
     justify-content: space-around;
     align-items: center;
@@ -57,7 +74,7 @@ a:hover {
     text-decoration-color: #FFFBED;
 }
 .logo {
-    font-size: 2rem;
+    font-size: 5rem;
 }
 .logo:hover {
     cursor: default;
@@ -168,13 +185,6 @@ section {
 
 }
 
-.section__pic-container {
-    display: flex;
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
-
 .section__text {
     align-self: center;
     text-align: center;
@@ -266,6 +276,8 @@ section {
 .subsystems-details-container {
     justify-content: center;
     flex-direction: column;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .subsystems-containers, .subsystems-details-container {
@@ -283,28 +295,21 @@ section {
 }
 
 .details-container {
-    padding: 1.5rem;
+    padding: 3rem;
     flex: 1rem;
     background:#FFFBED;
     border-radius: 2rem;
     border: rgb(148,89,34) 0.2rem solid;
     border-color: rgb(148,89,34);
     text-align: center;
+    margin-bottom: 2rem;
 }
 
 .section-container {
     gap: 4rem;
     height: 80%;
 }
-.section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
-}
 /* THE TEAM SECTION */
-#theteam {
-    position: relative;
-}
 
 .theteam-sub-title {
     color: rgb(85, 126, 128);
@@ -313,10 +318,9 @@ section {
     margin-bottom: 2rem;
 }
 
-.theteam-details-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+#theteam {
+    margin: 0;
+    padding: 0;
 }
 
 .article-container {
@@ -342,10 +346,6 @@ article.icon {
 /* DOCUMENTS SECTION */
 #documents {
     position: relative;
-    justify-content: space-around;
-}
-.details-container color-container {
-    justify-content: space-around;
 }
 
 .color-container {
@@ -357,13 +357,27 @@ article.icon {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    max-width: 100%;
 }
 
 .documents-title {
     margin: 1rem;
     color: black;
 }
-
+.about-containers {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.about-containers, .about-details-container {
+    display: flex;
+}
+.experience-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 .documents-btn {
     color: black;
     border-color: rgb(148,89,34);
