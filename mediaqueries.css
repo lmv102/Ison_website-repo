@@ -4,10 +4,10 @@
         font-size: 5rem;
     }
     #desktop-nav {
-        display: none;
+        display: flex;
     }
     #hamburger-nav {
-        display: flex;
+        display: none;
     }
     #profile,
     #profile-2,
@@ -30,7 +30,7 @@
         margin: 0 5%;
     }
     .section__pic-container {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
     .subsystems-containers {
@@ -42,6 +42,9 @@
         text-align: center;
         height: auto;
     }
+    #documents{
+        margin-top: 15rem;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -51,8 +54,10 @@
     #desktop-nav {
         display: none;
     }
+    
     #hamburger-nav {
         display: flex;
+        z-index: 1;
     }
     #profile,
     #profile-2,
@@ -74,8 +79,9 @@
         margin: 0 5%;
     }
     .section__pic-container {
-        width: 90%;
+        width: 100%;
         height: auto;
+        z-index: 2;
     }
     #experience,
     .experience-details-container {
@@ -89,6 +95,9 @@
         width: fit-content;
         text-align: center;
     }
+    #documents{
+        margin-top: 2rem;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -98,9 +107,11 @@
     #desktop-nav {
         display: none;
     }
-    #hamburger-nav {
-        display: flex;
+    
+    #hamburger-nav, .menu-links {
+        z-index: 1;
     }
+
     #profile,
     #profile-2,
     .section-container {
@@ -122,8 +133,9 @@
         margin: 0 5%;
     }
     .section__pic-container {
-        width: 90%;
+        width: 100%;
         height: auto;
+        z-index: 2;
     }
     .subsystems-containers {
         margin-top: 0;
@@ -132,5 +144,8 @@
         margin-top: 2rem;
         width: fit-content;
         text-align: center;
+    }
+    #documents{
+        margin-top: 2rem;
     }
 }
