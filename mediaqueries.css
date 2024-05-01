@@ -5,6 +5,15 @@
         height: auto;
         padding-left: -2%;
     }
+    .arrow {
+        display: flex;
+    }
+    #desktop-nav {
+        display: flex;
+    }
+    #hamburger-nav {
+        display: none;
+    }
 }
 @media screen and (max-width: 1400px) {
     .logo {
@@ -25,7 +34,8 @@
         margin-top: 15rem;
     }
     .arrow {
-        display: none;
+        display: flex;
+        padding-right: 8rem;
     }
     .section,
     .section-container,
