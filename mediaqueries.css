@@ -1,4 +1,11 @@
 /* ADD YOUR MEDIA QUERIES HERE */
+@media screen and (max-width: 1600px) {
+    .section__pic-container {
+        width: 100%;
+        height: auto;
+        padding-left: -2%;
+    }
+}
 @media screen and (max-width: 1400px) {
     .logo {
         font-size: 5rem;

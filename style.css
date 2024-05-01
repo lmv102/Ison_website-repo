@@ -37,7 +37,7 @@ nav,
     height: auto;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 0%;
+    align-items: center;
 }
 .about-containers{
     margin-right: auto;
