@@ -354,7 +354,7 @@ article.icon {
 /* DOCUMENTS SECTION */
 #documents {
     position: relative;
-    height: 96vh;
+    height: auto;
 }
 
 .color-container {
@@ -394,8 +394,9 @@ article.icon {
 /* FOOTER SECTION */
 
 footer {
-    height: 26vh;
+    height: auto;
     margin: 0 1rem;
+    position: relative;
 }
 footer p {
     text-align: center;

@@ -30,9 +30,7 @@
     .section-container {
         display: block;
     }
-    #subsystems, #theteam {
-        margin-top: 15rem;
-    }
+
     .arrow {
         display: flex;
         padding-right: 8rem;
@@ -82,7 +80,7 @@
         margin-top: 1rem;
     }
     .arrow {
-        display: none;
+        display: flex;
     }
     .section,
     .section-container,
@@ -108,9 +106,6 @@
         margin-top: 2rem;
         width: fit-content;
         text-align: center;
-    }
-    #documents{
-        padding-top: 90rem;
     }
 }
 
@@ -138,7 +133,7 @@
         margin-top: 1rem;
     }
     .arrow {
-        display: none;
+        display: flex;
     }
     .section,
     .section-container,
@@ -161,7 +156,5 @@
         width: fit-content;
         text-align: center;
     }
-    #documents{
-        padding-top: 90rem;
-    }
+
 }
