@@ -169,11 +169,11 @@ section {
 
 /* SECTION */
 
-#profile-2 {
+#introduction {
     justify-content: center;
     position: relative;
     gap: 25rem;
-    height: 50vh;
+    height: auto;
 
 }
 
@@ -182,7 +182,7 @@ section {
     justify-content: center;
     align-self: center;
     gap: 5rem;
-    height: 25vh;
+    height: auto;
     margin-left: 1rem;
     position: relative;
     margin-right: 1rem;
@@ -268,10 +268,10 @@ section {
 
 
 /* SUBSYSTEMS SECTION */
-#subsystems {
+#subsystems,#theteam {
     position: relative;
     margin-top: 2rem;
-    
+    height: auto;
 }
 
 .subsystems-containers {
@@ -326,12 +326,6 @@ section {
     margin-bottom: 2rem;
 }
 
-#theteam {
-    margin: 0;
-    padding: 0;
-    position: relative;
-}
-
 .article-container {
     display: flex;
     text-align: initial;
@@ -355,6 +349,7 @@ article.icon {
 /* DOCUMENTS SECTION */
 #documents {
     position: relative;
+    height: auto;
 }
 
 .color-container {
