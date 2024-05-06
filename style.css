@@ -268,7 +268,12 @@ section {
 
 
 /* SUBSYSTEMS SECTION */
-#subsystems,#theteam {
+#theteam {
+    position: relative;
+    margin-top: 2rem;
+    height: auto;
+}
+#subsystems {
     position: relative;
     margin-top: 2rem;
     height: auto;
@@ -349,7 +354,7 @@ article.icon {
 /* DOCUMENTS SECTION */
 #documents {
     position: relative;
-    height: auto;
+    height: 96vh;
 }
 
 .color-container {
