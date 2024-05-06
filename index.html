@@ -21,7 +21,7 @@
     <font size = 10><div class="logo">Welcome</div></font>
     <div>
       <ul class="nav-links">
-        <li><a href="#theteamclick">Team</a></li>
+        <li><a href="#theteam">Team</a></li>
         <li><a href="#thesubsystemsclick">Subsystems</a></li>
         <li><a href="#documents">Documents</a></li>
       </ul>
@@ -36,13 +36,13 @@
         <span></span>
       </div>
       <div class="menu-links">
-        <li><a href="#theteamclick" onclick="toggleMenu()">Team</a></li>
+        <li><a href="#theteam" onclick="toggleMenu()">Team</a></li>
         <li><a href="#thesubsystemsclick" onclick="toggleMenu()">Subsystems</a></li>
         <li><a href="#documents" onclick="toggleMenu()">Documents</a></li>
       </div>
     </div>
   </nav>
-  <section id="profile-2">
+  <section id="introduction">
     <div class="section__pic-container">
       <center><img src="./ison-design.png" alt="Level Two Diagram" class="profile-pic"></center>
     </div>
@@ -58,44 +58,42 @@
     </div>
     </section>
 
-    <section id="subsystems">
-      <section id="theteamclick">
-        <font size="5"><p class="section__text__p1"><center style="color:rgb(85, 126, 128);">Meet</center></p></font>
-        <h1 class="title">The Team</h1>
-        <div class="section__pic-container">
-          <center><img src="./profile-pic.png" alt="Level Two Diagram" class="profile-pic"></center>
+    <section id="theteam">
+      <font size="5"><p class="section__text__p1"><center style="color:rgb(85, 126, 128);">Meet</center></p></font>
+      <h1 class="title">The Team</h1>
+      <div class="section__pic-container">
+        <center><img src="./profile-pic.png" alt="Level Two Diagram" class="profile-pic"></center>
+      </div>
+      <font size="5"><center><p style="color:rgb(85, 126, 128);" class="section__text__p1">Hello, we are</p></center></font>
+      <h1 class="title">Ison</h1>
+      <section id="profile">
+        <div class="details-container">
+          <img src="./lael.png" alt="theteam icon" class="icon">
+          <font size="5"><h3>Lael<br>Lum</h3></font>
+          <font size="5"><p style="color:rgb(85, 126, 128);" >•Audio Output Lead<br>•Bluetooth Support</p></font>
+         </div>
+        <div class="details-container">
+          <img src="./rayven.png" alt="theteam icon" class="icon">
+          <font size="5"><h3>Rayven McMillian</h3></font>
+          <font size="5"><p style="color:rgb(85, 126, 128);" >•Power Lead<br>•Audio Output Support</p></font>
         </div>
-        <font size="5"><center><p style="color:rgb(85, 126, 128);" class="section__text__p1">Hello, we are</p></center></font>
-        <h1 class="title">Ison</h1>
-        <section id="profile">
-            <div class="details-container">
-              <img src="./lael.png" alt="theteam icon" class="icon">
-              <font size="5"><h3>Lael<br>Lum</h3></font>
-              <font size="5"><p style="color:rgb(85, 126, 128);" >•Audio Output Lead<br>•Bluetooth Support</p></font>
-            </div>
-            <div class="details-container">
-              <img src="./rayven.png" alt="theteam icon" class="icon">
-              <font size="5"><h3>Rayven McMillian</h3></font>
-              <font size="5"><p style="color:rgb(85, 126, 128);" >•Power Lead<br>•Audio Output Support</p></font>
-            </div>
-            <div class="details-container"> 
-              <img src="./kj.png" alt="theteam icon" class="icon">
-              <font size="5"><h3>KJ<br>Butler</h3></font>
-              <font size="5"><p style="color:rgb(85, 126, 128);" >•Text-to-Speech Lead<br>•Companion App Support</p></font>
-            </div>
-            <div class="details-container">
-              <img src="./daniel.png" alt="education icon" class="icon">
-              <font size="5"><h3>Daniel Stevens</h3></font>
-              <font size="5"><p style="color:rgb(85, 126, 128);" >•Team Leader<br>•Bluetooth Lead<br>•Power Support</p></font>
-            </div>
-            <div class="details-container">
-              <img src="./leah.png" alt="education icon" class="icon">
-              <font size="5"><h3>Leah Vaughan</h3></font>
-              <font size="5"><p style="color:rgb(85, 126, 128);" >•Project Manager<br>•Companion App Lead<br>•Text-to-Speech Support</p></font>
-                  </div>
-          </section>
-        <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#thesubsystemsclick'">
+        <div class="details-container"> 
+          <img src="./kj.png" alt="theteam icon" class="icon">
+          <font size="5"><h3>KJ<br>Butler</h3></font>
+          <font size="5"><p style="color:rgb(85, 126, 128);" >•Text-to-Speech Lead<br>•Companion App Support</p></font>
+         </div>
+        <div class="details-container">
+          <img src="./daniel.png" alt="education icon" class="icon">
+          <font size="5"><h3>Daniel Stevens</h3></font>
+          <font size="5"><p style="color:rgb(85, 126, 128);" >•Team Leader<br>•Bluetooth Lead<br>•Power Support</p></font>
+        </div>
+        <div class="details-container">
+          <img src="./leah.png" alt="education icon" class="icon">
+          <font size="5"><h3>Leah Vaughan</h3></font>
+          <font size="5"><p style="color:rgb(85, 126, 128);" >•Project Manager<br>•Companion App Lead<br>•Text-to-Speech Support</p></font>
+        </div>
       </section>
+      <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#thesubsystemsclick'">
     </section>
 
 <section id="subsystems">
@@ -179,14 +177,14 @@
         </div>
       </div></div>
   </div>
-  <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#profile-2'">
+  <img src="./arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#introduction'">
 </section>
 
 <footer>
   <nav>
     <div class="nav-links-container">
       <ul class="nav-links">
-        <li><a href="#theteamclick">Team</a></li>
+        <li><a href="#theteam">Team</a></li>
         <li><a href="#thesubsystemsclick">Subsystems</a></li>
         <li><a href="#documents">Documents</a></li>
       </ul>

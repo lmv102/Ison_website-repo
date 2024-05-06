@@ -171,6 +171,7 @@ section {
 
 #profile-2 {
     justify-content: center;
+    position: relative;
     gap: 25rem;
     height: 50vh;
 
@@ -183,7 +184,7 @@ section {
     gap: 5rem;
     height: 25vh;
     margin-left: 1rem;
-
+    position: relative;
     margin-right: 1rem;
 
 }
@@ -215,6 +216,7 @@ section {
     justify-content: center;
     margin-top: 1rem;
     gap: 1rem;
+    position: relative;
 }
 /* ICONS */
 .icon {
@@ -269,6 +271,7 @@ section {
 #subsystems {
     position: relative;
     margin-top: 2rem;
+    
 }
 
 .subsystems-containers {
@@ -326,6 +329,7 @@ section {
 #theteam {
     margin: 0;
     padding: 0;
+    position: relative;
 }
 
 .article-container {

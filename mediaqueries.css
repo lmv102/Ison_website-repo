@@ -30,7 +30,7 @@
     .section-container {
         display: block;
     }
-    #subsystems {
+    #subsystems, #theteam {
         margin-top: 15rem;
     }
     .arrow {
@@ -81,7 +81,7 @@
     .section-container {
         display: block;
     }
-    #subsystems {
+    #subsystems, #theteam {
         margin-top: 1rem;
     }
     .arrow {
@@ -137,7 +137,7 @@
         display: block;
         position: relative;
     }
-    #subsystems {
+    #subsystems, #theteam {
         margin-top: 1rem;
     }
     .arrow {
