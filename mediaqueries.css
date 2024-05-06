@@ -63,10 +63,16 @@
     .logo {
         font-size: 5rem;
     }
+    
     #desktop-nav {
         display: none;
     }
-    
+    #nav, .nav-links-container {
+        width: fit-content;
+    }
+    #hamburger-nav, .menu-links {
+        z-index: 1;
+    }
     #hamburger-nav {
         display: flex;
         z-index: 1;
